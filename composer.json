@@ -1,0 +1,34 @@
+{
+    "name": "DKociuba/WSFrameworkBundle",
+    "description": "Symfony2 bundle .",
+    "type": "symfony-bundle",
+    "keywords": ["polcode", "symfony", "bundle", "websocket", "framework", "ratchet"],
+    "homepage": "https://github.com/damian-kociuba/WebSocketFrameworkBundle.git",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Damian Kociuba",
+            "homepage": "https://github.com/damian-kociuba"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.1",
+        "symfony/framework-bundle": "~2.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.1.*"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "DKociuba\\WSFrameworkBundle\\": ""
+        }
+    },
+    "repositories": [{
+        }],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}

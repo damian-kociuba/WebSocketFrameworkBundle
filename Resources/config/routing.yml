@@ -1,0 +1,3 @@
+d_kociuba_ws_framework_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: DKociubaWSFrameworkBundle:Default:index }

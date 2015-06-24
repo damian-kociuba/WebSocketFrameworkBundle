@@ -1,0 +1,6 @@
+services:
+    dkociuba_ws_framework.ws_manager:
+        class: DKociuba\WSFrameworkBundle\WSServer\CommandManager
+        arguments: 
+            - 
+                - @app.command.demo
