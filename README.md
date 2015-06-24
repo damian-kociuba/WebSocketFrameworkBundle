@@ -20,9 +20,11 @@ Instalation
 
 
 2. Run
+
         composer update DKociuba/WSFrameworkBundle
 
 3. Add to your app/AppKernel.php
+
         $bundles = array(
             [...]
             new DKociuba\WSFrameworkBundle\DKociubaWSFrameworkBundle(),
