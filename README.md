@@ -48,7 +48,6 @@ Use
         class Demo implements WSCommandInterface {
 
             public function run(Message $message) {
-                echo 'close game';
                 $connection = $message->getConnection();
 
                 $response = new DemoRsp();
